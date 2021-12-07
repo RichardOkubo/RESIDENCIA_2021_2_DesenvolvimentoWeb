@@ -1,0 +1,82 @@
+.admin-update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-update-content {
+  width: 600px;
+  min-height: 400px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 40px 30px;
+  margin: 50px 0px;
+}
+
+.admin-update-content h1 {
+  color: #111;
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-funcionario-group label {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  margin-right: 30px;
+}
+
+.add-funcionario-group {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.add-funcionario-group input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #e7e7e7;
+  padding: 15px 20px;
+  font-size: 1rem;
+  border-radius: 30px;
+}
+
+.add-funcionario-group button {
+  padding: 15px 20px;
+  text-align: center;
+  border: none;
+  background: #6c5ce7;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.two-button {
+  display: flex;
+  align-items: center;
+}
+
+.two-button button {
+  width: auto;
+}
+
+.admin-update-content p {
+  color: #111;
+  font-weight: 600;
+}
+
+.admin-update-content a {
+  text-decoration: none;
+  color: #6c5ce7;
+}
+
+@media (max-width: 430px) {
+  .admin-update-content {
+    width: 300px;
+  }
+}
